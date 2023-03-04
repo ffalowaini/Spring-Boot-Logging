@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<property name="LOGS" value="./logs" />
+	
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{YYYY-MM-DD HH:mm:ss} [%thread] %-5level %-50logger{50} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <root level="info">
+        <appender-ref ref="STDOUT" />
+    </root>
+    
+    <appender name="rollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+	    <file>${LOGS}/log-today.log</file>
+	    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+	        <fileNamePattern>${LOGS}/archived/spring-boot-logger-%d{yyyy-MM-dd HH:mm:ss}.log
+            </fileNamePattern>
+	        <maxHistory>30</maxHistory> 
+	        <totalSizeCap>3GB</totalSizeCap>
+	    </rollingPolicy>
+	    <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+	        <maxFileSize>7KB</maxFileSize>
+	    </triggeringPolicy>
+	    <encoder>
+	        <pattern>%d{YYYY-MM-DD HH:mm:ss} [%thread] %-5level %-50logger{50} - %msg%n</pattern>
+	    </encoder>
+	</appender>
+	
+	<root level="info">
+        <appender-ref ref="rollingFile" />
+    </root>
+</configuration>

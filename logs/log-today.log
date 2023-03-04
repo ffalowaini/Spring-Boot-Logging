@@ -1,0 +1,61 @@
+2023-02-58 21:15:34 [main] INFO  com.example.logging.LoggingApplication             - Starting LoggingApplication on Faisals-MacBook-Pro.local with PID 52890 (/Users/faisalal/Documents/Projects/Spring/logging/target/classes started by faisalal in /Users/faisalal/Documents/Projects/Spring/logging)
+2023-02-58 21:15:34 [main] INFO  com.example.logging.LoggingApplication             - No active profile set, falling back to default profiles: default
+2023-02-58 21:15:35 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer       - Tomcat initialized with port(s): 8080 (http)
+2023-02-58 21:15:35 [main] INFO  org.apache.coyote.http11.Http11NioProtocol         - Initializing ProtocolHandler ["http-nio-8080"]
+2023-02-58 21:15:35 [main] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2023-02-58 21:15:35 [main] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2023-02-58 21:15:35 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]  - Initializing Spring embedded WebApplicationContext
+2023-02-58 21:15:35 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 806 ms
+2023-02-58 21:15:35 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor   - Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-58 21:15:36 [main] INFO  org.apache.coyote.http11.Http11NioProtocol         - Starting ProtocolHandler ["http-nio-8080"]
+2023-02-58 21:15:36 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer       - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-58 21:15:36 [main] INFO  com.example.logging.LoggingApplication             - Started LoggingApplication in 1.563 seconds (JVM running for 2.343)
+2023-02-58 21:15:49 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-58 21:15:49 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet  - Initializing Servlet 'dispatcherServlet'
+2023-02-58 21:15:49 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet  - Completed initialization in 20 ms
+2023-02-58 21:15:49 [http-nio-8080-exec-1] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:15:49 [http-nio-8080-exec-1] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:15:49 [http-nio-8080-exec-3] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:15:49 [http-nio-8080-exec-3] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:15:49 [http-nio-8080-exec-4] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:15:49 [http-nio-8080-exec-4] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:03 [http-nio-8080-exec-5] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:03 [http-nio-8080-exec-5] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:04 [http-nio-8080-exec-6] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:04 [http-nio-8080-exec-6] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:04 [http-nio-8080-exec-7] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:04 [http-nio-8080-exec-7] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:05 [http-nio-8080-exec-8] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:05 [http-nio-8080-exec-8] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:05 [http-nio-8080-exec-9] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:05 [http-nio-8080-exec-9] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:06 [http-nio-8080-exec-10] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:06 [http-nio-8080-exec-10] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:06 [http-nio-8080-exec-2] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:06 [http-nio-8080-exec-2] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:07 [http-nio-8080-exec-1] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:07 [http-nio-8080-exec-1] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:07 [http-nio-8080-exec-3] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:07 [http-nio-8080-exec-3] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:14 [http-nio-8080-exec-4] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:14 [http-nio-8080-exec-4] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:15 [http-nio-8080-exec-5] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:15 [http-nio-8080-exec-5] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:16 [http-nio-8080-exec-6] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:16 [http-nio-8080-exec-6] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:18 [http-nio-8080-exec-7] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:18 [http-nio-8080-exec-7] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:19 [http-nio-8080-exec-8] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:19 [http-nio-8080-exec-8] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:19 [http-nio-8080-exec-9] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:19 [http-nio-8080-exec-9] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:30 [http-nio-8080-exec-10] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:30 [http-nio-8080-exec-10] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:32 [http-nio-8080-exec-2] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:32 [http-nio-8080-exec-2] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:32 [http-nio-8080-exec-1] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:32 [http-nio-8080-exec-1] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:16:33 [http-nio-8080-exec-3] ERROR com.example.logging.DemoController                 - Logger Error
+2023-02-58 21:16:33 [http-nio-8080-exec-3] INFO  com.example.logging.DemoController                 - Logger Info
+2023-02-58 21:18:04 [main] INFO  com.example.logging.LoggingApplication             - Starting LoggingApplication on Faisals-MacBook-Pro.local with PID 52912 (/Users/faisalal/Documents/Projects/Spring/logging/target/classes started by faisalal in /Users/faisalal/Documents/Projects/Spring/logging)
+2023-02-58 21:18:04 [main] INFO  com.example.logging.LoggingApplication             - No active profile set, falling back to default profiles: default
